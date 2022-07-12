@@ -7,6 +7,7 @@
             var linearSearch = new LinearSearch();
             var binarySearch = new BinarySearch();
             var aggregateArray = new AggregateArray();
+            var queueAlgorithm = new QueueAlgorithm();
 
             Console.WriteLine("--LinearSearch--");
 
@@ -19,6 +20,10 @@
             Console.WriteLine("\n--AggregateArray--");
 
             aggregateArray.ExecuteAggregateArray();
+
+            Console.WriteLine("\n--QueueAlgorithm--");
+
+            queueAlgorithm.ExecuteQueueAlgorithm();
         }
     }
 }

@@ -11,17 +11,13 @@ namespace Search.Algorithms
             foreach (int num in arr1)
             {
                 if (num % 2 == 0)
-                {
                     result.Add(num);
-                }
             }
 
             foreach (int num in arr2)
             {
                 if (num % 2 == 0)
-                {
                     result.Add(num);
-                }
             }
 
             return (int[])result.ToArray(typeof(int));
