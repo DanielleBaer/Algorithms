@@ -8,6 +8,7 @@
             var binarySearch = new BinarySearch();
             var aggregateArray = new AggregateArray();
             var queueAlgorithm = new QueueAlgorithm();
+            var stackAlgorithm = new StackAlgorithm();
 
             Console.WriteLine("--LinearSearch--");
 
@@ -24,6 +25,10 @@
             Console.WriteLine("\n--QueueAlgorithm--");
 
             queueAlgorithm.ExecuteQueueAlgorithm();
+
+            Console.WriteLine("\n--StackAlgorithm--");
+
+            stackAlgorithm.ExecuteStackAlgorithm();
         }
     }
 }

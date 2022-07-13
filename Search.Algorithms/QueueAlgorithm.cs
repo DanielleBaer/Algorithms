@@ -16,8 +16,7 @@
 
             //Removing from the queue in sequence, because the queue works like this:
             //first in, first out (the element)
-            int current;
-            while (queue.TryDequeue(out current))
+            while (queue.TryDequeue(out int current))
                 Console.WriteLine(current);
         }
     }
