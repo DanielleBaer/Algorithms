@@ -9,6 +9,8 @@
             var aggregateArray = new AggregateArray();
             var queueAlgorithm = new QueueAlgorithm();
             var stackAlgorithm = new StackAlgorithm();
+            var hashSetType = new HashSetType();
+            var dictionaryType = new DictionaryType();
 
             Console.WriteLine("--LinearSearch--");
 
@@ -29,6 +31,14 @@
             Console.WriteLine("\n--StackAlgorithm--");
 
             stackAlgorithm.ExecuteStackAlgorithm();
+
+            Console.WriteLine("\n--HashSetType--");
+
+            hashSetType.ExecuteHashSetType();
+
+            Console.WriteLine("\n--DictionaryType--");
+
+            dictionaryType.ExecuteDictionaryType();
         }
     }
 }
