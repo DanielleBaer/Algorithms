@@ -11,6 +11,7 @@
             var stackAlgorithm = new StackAlgorithm();
             var hashSetType = new HashSetType();
             var dictionaryType = new DictionaryType();
+            var binaryTreeAlgorithm = new BinaryTreeAlgorithm();
 
             Console.WriteLine("--LinearSearch--");
 
@@ -39,6 +40,10 @@
             Console.WriteLine("\n--DictionaryType--");
 
             dictionaryType.ExecuteDictionaryType();
+
+            Console.WriteLine("\n--BinaryTreeAlgorithm--");
+
+            binaryTreeAlgorithm.ExecuteBinaryTree();
         }
     }
 }
